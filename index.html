@@ -1,169 +1,126 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<title>Catalyst</title>
-		<meta charset="utf-8" />
-		<meta property="og:title" content="Catalyst" />
-		<meta property="og:image" content="https://catalyst.hack.gt/assets/preview.png" />
-		<meta property="og:url" content="https://catalyst.hack.gt/" />
-		<!--we have to make these explicit urls instead of url shortcuts because facebook only likes explicit urls-->
-		<meta property="og:description" content="Catalyst is a free, 12-hour event held on Saturday April 15th from 9AM to 9PM, where metro Atlanta high school students will explore technology and learn from mentors at Georgia Tech and our sponsors." />
-		<meta name="theme-color" content="#CCFFED" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="shortcut icon" href="favicon.ico" />
-		<link rel="stylesheet" type="text/css" href="css/main.css" />
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" />
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
-		<base target="_blank" />
-		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-		<script src="//cdnjs.cloudflare.com/ajax/libs/snap.svg/0.3.0/snap.svg-min.js"></script>
-		<script src="//cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.min.js"></script>
-	</head>
-	<body>
-		<header id="first-page">
-			<div id="applyPage"></div>
-			<h3 class="details">
-				April 7th, 2018
-				<br />
-				9 AM - 9 PM
-			</h3>
-			<div class="button">
-				<h3>
-					<a href="https://registration.catalyst.hack.gt">Register</a>
-				</h3>
-			</div>
-<!-- 			<div class="button">
-				<h3>
-					<a href="https://goo.gl/forms/Qnra8Vh9VOUH9Ysq2">Subscribe for email updates</a>
-				</h3>
-			</div> -->
-		</header>
-		<hr />
-		<section id="info">
-			<object data="./assets/triangle-glyph.svg" type="image/svg+xml" class="glyph" id="triangle"></object>
-			<h1>Info</h1>
-			<p>Catalyst is a free, 12-hour event held on Saturday April 7th from 9AM to 9PM, where Metro Atlanta high school students will explore technology and learn from mentors at Georgia Tech and our sponsors.<p>
-      <p>No experience required!</p>
-		</section>
-		<section id="schedule">
-			<object data="./assets/hex2-glyph.svg" type="image/svg+xml" class="glyph left" id="hex2"></object>
-			<h1>Schedule</h1>
-			<p>Schedule coming soon!</p>
-		</section>
-		<section id="faq">
-			<object data="./assets/circle-glyph.svg" type="image/svg+xml" class="glyph" id="circle"></object>
-			<h1>Frequently Asked Questions</h1>
-			<ul>
-				<li>
-					<strong>What will I learn?</strong>
-					<p>We’ll be offering three tracks:</p>
-					<ul>
-						<li><p>Design: Art + Coding a.k.a becoming the Picasso of Computer Science!</p></li>
-						<li><p>Development: Building beautiful websites, sending texts with applications, etc., where to begin?!</p></li>
-						<li><p>Hardware: Interested in circuits? Heard of arduinos? Make hardware come to life!</p></li>
-					</ul>
-				</li>
-				<li>
-					<strong>Should I bring anything?</strong>
-					<p>Nope! We will provide food for every participant and laptops for every team. Our sponsors will also have some free swag for you to take home!</p>
-				</li>
-				<li>
-					<strong>How do we get there?</strong>
-					<p>We are providing transportation to Cobb, Clayton, and Dekalb counties, and APS. However, students from any district are welcome to register for the event.</p>
-					<p>The event will be in the Klaus Advanced Computing Building at Georgia Tech</p>
-					<iframe class="map" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDKeQHVSq03HoG1RtjhUVAcx9vjUY6XkYc&q=Klaus+Advanced+Computing+Building,+Atlanta,+GA" allowfullscreen></iframe>
-					<p>
-				</li>
-				<li>
-					<strong>What about parking?</strong>
-					<p>If you require it, parking will be provided.  Let us know on your application and we will give you more information!</p>
-				</li>
-				<li>
-					<strong>Are parents allowed to come?</strong>
-					<p>Although we are grateful for parental support, this is a student-only event from check-in on.</p>
-				</li>
+<html>
+    <head>
+        <link rel="stylesheet" href="./css/simplegrid.min.css"/>
+        <link rel="stylesheet" href="./css/main.css"/>
+    </head>
+    <body>
+        <div class="container">
+            <div id="splash-img">
+                <div class="nav">
+                    <div class="nav-left">
+                        <h2>Catalyst</h2>
+                    </div>
 
-			</ul>
-		</section>
-		<footer>
-			<div class="social">
-				<a href="https://twitter.com/thehackgt" title="Twitter" class="twitter">
-					<i class="fa fa-twitter"></i>
-				</a>
-				<a href="https://www.facebook.com/HackGT" title="Facebook" class="facebook">
-					<i class="fa fa-facebook"></i>
-				</a>
-				<a href="https://github.com/HackGT" title="GitHub" class="github">
-					<i class="fa fa-github"></i>
-				</a>
-				<a href="mailto:hello@hack.gt" title="Email" class="email">
-					<i class="fa fa-envelope"></i>
-				</a>
-			</div>
-			<p>Made with &hearts; by the HackGT Team</p>
-		</footer>
+                    <div class="nav-right">
+                        <h2><a href="#">About</a></h2>
+                        <h2><a href="#">FAQ's</a></h2>
+                        <h2><a href="#">Sponsors</a></h2>
+                    </div>
+                </div>
 
-		<script src="js/svgScript.js"></script>
-		<script>
-			function isScrolledIntoView(el) {
-				var elemTop = el.getBoundingClientRect().top;
-				var elemBottom = el.getBoundingClientRect().bottom;
+                <h1 class="jumbo">Connecting students to computer science education.</h1>
+                <p class="goal">HackGT is partnering with ___ to bridge the gap between primary education and computer science. By exposing high school students to the possibilities of hacking early on, we hope to inspire them to become the next generation of builders, developers, and creatives.
+            </div>
+        </div>
 
-				var isVisible = (elemTop <= 0) && (elemBottom <= window.innerHeight);
-				console.log(el.id, isVisible)
-				return isVisible;
-			}
+        <div class="grid grid-pad">
+            <div class="col-9-12 about-col left-col">
+                <div class="content">
+                    <h1>About Catalyst</h1>
 
-			var firstPage = document.getElementById("first-page");
-			var hideScrollIndicatorClass = "hide-scroll-indicator";
+                    <p>Catalyst is a free, 12-hour event held on Saturday April 7th from 9am to 9pm, where Metro Atlanta high school students will explore technology and learn from mentors and Georgia Tech and our sponsors.</p>
 
-			var sections = ["first-page", "info", "schedule", "faq", "sponsors"].map(function (id) {
-				return document.getElementById(id);
-			});
-			var colors = ["#F7FFFC", "#CCFFED", "#A5DFF9", "#D1B6E1", "#A5DFF9",];
+                    <a href="https://registration.catalyst.hack.gt" class="button-link">Register</a>
 
-			function updateColor() {
-				console.log("yep");
-				if (window.scrollY !== 0) {
-					firstPage.classList.add(hideScrollIndicatorClass);
-					for (var i = 0; i < sections.length; i++) {
-						if (isScrolledIntoView(sections[i])) {
-							document.body.style.backgroundColor = colors[i];
-							// if (i != 0)
-							// 	document.body.style.color = colors[0]
-							// else
-							// 	document.body.style.color = "#000000"
-						}
-					}
-				}
-				else {
-					firstPage.classList.remove(hideScrollIndicatorClass);
-					document.body.style.backgroundColor = colors[0];
-					// document.body.style.color = "#000000"
-				}
-			}
+                </div>
+            </div>
+            <div class="col-3-12 img-col blue">
+                <div class="content">
+                </div>
+            </div>
+            
+        </div>
 
-			document.addEventListener("scroll", function (event) {
-				updateColor();
-			});
+        <div class="grid grid-pad">
+            <h1>Tracks</h1>
+        </div>
 
-			updateColor();
+        <div class="grid grid-pad tracks">
+            
+            <div class="col">
+                <div class="content track">
+                    <p>Design</p>
+                    <div class="square design">
+                        <div class="hidden-text">
+                            <p>Hello world</p>
+                            <p>Lorem ipsum amirite</p>
+                            <br/>
+                            <a class="basic-button-link" href="https://registration.catalyst.hack.gt">Sign Up</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="content track">
+                    <p>Software</p>
+                    <div class="square software">
+                        <div class="hidden-text">
+                            <p>Hello world</p>
+                            <p>Lorem ipsum amirite</p>
+                            <br/>
+                            <a class="basic-button-link" href="https://registration.catalyst.hack.gt">Sign Up</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="content track">
+                    <p>Hardware</p>
+                    <div class="square hardware">
+                        <div class="hidden-text">
+                            <p>Hello world</p>
+                            <p>Lorem ipsum amirite</p>
+                            <br/>
+                            <a class="basic-button-link" href="https://registration.catalyst.hack.gt">Sign Up</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
 
-			//so when the 
-			// updateColor();
-			// if (window.scrollY != 0) {
-			// 	console.log("hi")
-			// 	window.scrollTo(0, 0);
-			// }
-		</script>
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        <div class="grid grid-pad">
+            <div class="col-3-12 img-col orange">
+                <div class="content">
+                </div>
+            </div>
+            <div class="push-1-12"></div>
+            <div class="col-9-12 about-col">
+                <div class="content">
+                    <h1>FAQs</h1>
 
-			ga('create', 'UA-64687964-3', 'auto');
-			ga('send', 'pageview');
-		</script>
-	</body>
+                    <h2>Lorem Ipsum</h2>
+                    <p>Dolor sit amet! Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+
+                    <h2>Lorem Ipsum</h2>
+                    <p>Dolor sit amet! Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+
+                    <h2>Lorem Ipsum</h2>
+                    <p>Dolor sit amet! Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="grid grid-pad">
+            <div class="col-12-12 sponsors">
+                <div class="content">
+                    <h1>Sponsor Sponsor</h1>
+                    <h1>Sponsor Sponsor</h1>
+                    <h1>Sponsor Sponsor</h1>
+                </div>
+            </div>
+        </div>
+    </body>
+            
 </html>
