@@ -219,3 +219,25 @@ p.goal {
     width: 100%;
     text-align: center;
 }
+
+@media (max-width: 700px) {
+  .about-col p {
+    padding-right: 0;
+  }
+
+  .left-col {
+    padding-left: 0;
+  }
+
+  h1.jumbo {
+    margin: 1em;
+  }
+
+  p.goal {
+    margin: 1em;
+  }
+
+  .container {
+    margin: 0;
+  }
+}
