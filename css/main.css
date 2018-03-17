@@ -112,6 +112,7 @@ p.goal {
 .blue {
     background-color: #4284FB;
     background-image: url('../assets/blue.JPG');
+    margin-right: 20px;
 }
 
 .orange {
@@ -175,6 +176,7 @@ p.goal {
     background-position: center;
     background-color: #ddd;
     transition: 0.25s all;
+    background-repeat: no-repeat;
 }
 
 .design {
@@ -194,6 +196,7 @@ p.goal {
     opacity: 0;
     transition: 0.25s all;
     color: white;
+    text-align: center;
 }
 
 .square:hover .hidden-text {
@@ -202,6 +205,10 @@ p.goal {
 
 .square:hover {
     background-color: #999;
+}
+
+.tracks {
+    flex-wrap: wrap;
 }
 
 .tracks > .col {
@@ -219,12 +226,11 @@ p.goal {
     background-color: #ddd;
     width: 100%;
     text-align: center;
-    margin-bottom: 2.5em;
 }
 
 .sponsors img {
   max-width: 45%;
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
 }
 
 .center {
@@ -260,5 +266,27 @@ p.goal {
 
   .sponsors img {
     max-width: 85%;
+  }
+
+  .tracks > .col {
+    min-width: 100%;
+  }
+
+  .square {
+    padding-bottom: 50%;
+  }
+}
+
+@media (max-width: 550px) {
+  .img-col.orange, .img-col.blue {
+    display: none;
+  }
+
+  #faqs .push-1-12 {
+    display: none;
+  }
+
+  .square {
+    padding-bottom: 70%;
   }
 }
