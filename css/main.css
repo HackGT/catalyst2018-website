@@ -197,6 +197,8 @@ p.goal {
     transition: 0.25s all;
     color: white;
     text-align: center;
+    /* manually offsetting this b/c the parent has 0 height and it was hard to center */
+    padding-top: 25%;
 }
 
 .square:hover .hidden-text {
@@ -275,6 +277,10 @@ p.goal {
   .square {
     padding-bottom: 50%;
   }
+
+  .hidden-text {
+    padding-top: 15%;
+  }
 }
 
 @media (max-width: 550px) {
@@ -288,5 +294,13 @@ p.goal {
 
   .square {
     padding-bottom: 70%;
+  }
+
+  .hidden-text {
+    padding-top: 20%;
+  }
+
+  h1.jumbo {
+    font-size: 3em;
   }
 }
