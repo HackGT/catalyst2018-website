@@ -219,6 +219,16 @@ p.goal {
     background-color: #ddd;
     width: 100%;
     text-align: center;
+    margin-bottom: 2.5em;
+}
+
+.sponsors img {
+  max-width: 45%;
+  margin-bottom: 1.5em;
+}
+
+.center {
+  text-align: center;
 }
 
 @media (max-width: 950px) {
@@ -246,5 +256,9 @@ p.goal {
 
   .container {
     margin: 0;
+  }
+
+  .sponsors img {
+    max-width: 85%;
   }
 }
