@@ -134,9 +134,9 @@ p.goal {
 
 .button-link {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 1.5em;
-    border: solid black 2px;
+    border: solid white 2px;
     padding: 0.25em;
     position: relative;
     overflow: hidden;
@@ -144,10 +144,10 @@ p.goal {
     transition: 0.5s all;
 }
 
-.button-link::before {
+/*.button-link::before {
     content: "";
     position: absolute;
-    background-color: black;
+    background-color: white;
     width: 0;
     height: 100%;
     left: 0;
@@ -162,9 +162,9 @@ p.goal {
 }
 
 .button-link:hover {
-    color: white;
+    color: black;
 }
-
+*/
 .track > p {
     text-align: center;
 }
@@ -196,9 +196,9 @@ p.goal {
     opacity: 0;
     transition: 0.25s all;
     color: white;
-    text-align: center;
+    font-size: 1.1em;
     /* manually offsetting this b/c the parent has 0 height and it was hard to center */
-    padding-top: 25%;
+    padding-top: 30%;
 }
 
 .square:hover .hidden-text {
@@ -279,7 +279,7 @@ p.goal {
   }
 
   .hidden-text {
-    padding-top: 15%;
+    padding-top: 20%;
   }
 }
 
@@ -297,7 +297,7 @@ p.goal {
   }
 
   .hidden-text {
-    padding-top: 20%;
+    padding-top: 25%;
   }
 
   h1.jumbo {
