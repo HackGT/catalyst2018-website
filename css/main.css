@@ -239,6 +239,15 @@ p.goal {
   text-align: center;
 }
 
+
+td {
+    padding: 0.5em 1em;
+}
+
+#schedule-table {
+    justify-content: center;
+}
+
 @media (max-width: 950px) {
   p.goal {
     margin: 1em 4em;
