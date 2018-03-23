@@ -267,6 +267,10 @@ td {
     background-size: cover;
 }
 
+.overlay {
+    background-color: rgba(125, 125, 125, 0.5);
+}
+
 @media (max-width: 950px) {
     p.goal {
         margin: 1em 4em;
@@ -283,11 +287,11 @@ td {
     }
 
     h1.jumbo {
-        margin: 1em;
+        margin: 5%;
     }
 
     p.goal {
-        margin: 1em;
+        margin: 5%;
     }
 
     .sponsors img {
@@ -312,6 +316,14 @@ td {
 
     .nav a {
         font-size: 80%;
+    }
+
+    .nav-left, .nav-right {
+        margin-left: 5%;
+    }
+
+    #schedule {
+        margin: 0;
     }
 }
 
