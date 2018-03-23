@@ -269,6 +269,7 @@ td {
 
 .overlay {
     background-color: rgba(125, 125, 125, 0.5);
+    height: 100%;
 }
 
 @media (max-width: 950px) {
