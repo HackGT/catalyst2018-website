@@ -249,6 +249,7 @@ td {
 
 #carousel {
     max-height: 80%;
+    margin-top: 4em;
 }
 
 #carousel img {
@@ -263,7 +264,7 @@ td {
     padding-bottom: 100%;
     background-position: center center;
     background-repeat: no-repeat;
-    background-color: #ddd;  
+    background-color: #ddd;
     background-size: cover;
 }
 
@@ -325,6 +326,10 @@ td {
 
     #schedule {
         margin: 0;
+    }
+
+    #carousel {
+      margin-top: 0.5em;
     }
 }
 
