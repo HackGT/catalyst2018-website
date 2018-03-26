@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="340" viewBox="0 0 340 340">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #4a4a4a;
+        stroke-miterlimit: 10;
+        stroke-width: 10px;
+      }
+    </style>
+  </defs>
+  <title>Hardware Icon</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g>
+      <polyline class="cls-1" points="76 150.8 180.7 150.8 180.7 107.6"/>
+      <line class="cls-1" x1="76" y1="185.7" x2="239.7" y2="185.7"/>
+      <polyline class="cls-1" points="76 220.7 180.7 220.7 208.9 248.9"/>
+      <circle class="cls-1" cx="180.7" cy="91.4" r="16.2"/>
+      <circle class="cls-1" cx="220.5" cy="260.3" r="16.2"/>
+      <circle class="cls-1" cx="256" cy="185.7" r="16.2"/>
+    </g>
+  </g>
+</svg>
