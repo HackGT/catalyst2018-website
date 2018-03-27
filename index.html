@@ -207,12 +207,12 @@
     </body>
 
     <script>
-        var index = 0;
+        var index = 1;
 
         function carousel() {
             var images = document.querySelectorAll("#carousel img");
-            images[index % images.length].style.display = "none";
             index++;
+            images[(index - 1) % images.length].style.display = "none";
             images[index % images.length].style.display = "block";
             setTimeout(carousel, 2000);
         }
