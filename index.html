@@ -212,8 +212,8 @@
         function carousel() {
             var images = document.querySelectorAll("#carousel img");
             index++;
-            images[(index - 1) % images.length].style.display = "none";
             images[index % images.length].style.display = "block";
+            images[(index - 1) % images.length].style.display = "none";
             setTimeout(carousel, 2000);
         }
 
